@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+# Augur Weather App 🌤️
 
-1. Install dependencies
+This is a weather app built using React Native and Expo. It shows the current weather, 3-day forecast, and allows users to search for cities and save favorite locations.
 
-   ```bash
+---
+
+## Features
+
+- View current weather based on your location
+- Search for any city and view its weather
+- Autocomplete suggestions while typing city names
+- Add and remove favorite cities
+- Tap a favorite city to view its weather
+- 3-day forecast with temperature and condition icons
+
+---
+
+## How to Run
+
+1. Install dependencies:
+
    npm install
-   ```
 
-2. Start the app
+2. Start the development server:
 
-   ```bash
-    npx expo start
-   ```
+   npx expo start
 
-In the output, you'll find options to open the app in a
+You can open it in the Expo Go app, or run it on an emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tools & Libraries Used
 
-## Get a fresh project
+- React Native
+- Expo
+- Expo Router
+- AsyncStorage
+- WeatherAPI
+- Tailwind CSS (with NativeWind)
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## Notes
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Uses the free weather API from [weatherapi.com](https://weatherapi.com)
